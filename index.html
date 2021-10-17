@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content= "text/html";charset="UTF-8"/>
+    <title>鈴鼓俱樂部</title>
+    <link herf="stylesheet.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+    function hi(){
+        var mb=document.getElementById('ib');
+        var mimgs=document.getElementsByTagName("img");
+        var mimg = mimgs[0];
+        var i;
+        for(i=0;i<3;i++){
+            var mimg = mimgs[i];
+            if(mimg.style.visibility=="hidden"){
+                mimg.style.visibility="visible";
+                mb.value="隱藏圖片";
+            }else{
+                mimg.style.visibility="hidden";
+                mb.value="顯示圖片";
+            }
+        }    
+    }
+    </script>    
+</head>
+<body>
+<form action="" method="get">    
+<h1 style="text-align: center;"> 計算機概論作業 鈴鼓俱樂部</h1>
+<p style="text-align: center;">這是一個以介紹鈴鼓為主題的網站</p>
+<hr/>
+<p style="text-align: left;">目錄</p>
+<ul>
+    <li><a href="#section1">鈴鼓的起源</a></li>
+    <li><a href="#section2">鈴鼓的組成</a></li>
+    <li><a href="#section3">鈴鼓的演奏方式</a></li>
+</ul>
+<hr/>
+<h2 id="section1">鈴鼓的起源</h2>
+<p>有關鈴鼓的起源已經無法考查，但在中亞、中歐一帶，以至葡萄牙及印度的歷史文獻或出土文物中，可以證明這些地區數百年前已經有類似鈴鼓的樂器流傳。而英文 tambourine 則源自法文 tambourin，指的是當時一種在古羅馬時期普羅旺斯已留存下來的一種長而窄身的鼓。tambour一字則源於阿拉伯語的「鼓」(tunbur)，再加上字尾以表示其體積細小。</p>
+<h2 id="section2">鈴鼓的組成</h2>
+<p>鈴鼓主要是以一面很小的鼓和鈴鐺構成，鼓框直徑由8吋至14吋不等，以木或金屬製造。用一面皮釘或雙面皮，黏或釘在圓形或多角形的扁框上，鼓膜主要由動物皮所做成，鼓上面常繫著鈴鐺、球鈴或響弦，發出叮鐺響的圓片裝在框邊上。</p>
+<h2 id="section3">鈴鼓的演奏方式</h2>
+<p>鈴鼓有很多種的演奏方法。</p>
+<table style="border-color: black; border-style: double; border-collapse: separate; " >
+    <caption>演奏方式<caption>
+    <tr>
+        <td>敲打</td>
+        <td>一手持鼓框，另一手則拍打樂器的鼓皮或鼓框。亦可將鈴鼓固定在樂器夾鉗內，再以雙手或鼓棍敲打發聲。演奏急速的節奏時，亦可利把鈴鼓置於手和大腿之間，便能在短時間內擊出較多的次數。</td>
+    </tr>
+    <tr>
+        <td>滾奏</td>
+        <td>手持鈴鼓，利用手腕的前後擺動來搖動鈴鼓，帶動金屬片相撞擊。速度越快, 金屬片的撞擊就越密；擺動的幅度越大，所產生的聲音亦越響。</td>
+    </tr>
+    <tr>
+        <td>姆指輪奏</td>
+        <td>利用手指沿鼓膜邊摩擦，距離大概是離鼓邊約1公分左右，摩擦帶動金屬片震動而製造出急速的滾奏效果。演奏前，樂手會先在手指頭上塗上一層蠟，或用水沾濕指頭以增強摩擦力。如需要長時值的姆指輪奏，樂手會在鼓膜上畫「8」字來增長時間。</td>
+    </tr>
+</table>
+<a href="https://youtu.be/UprsYgpfEjc">這是鈴鼓演奏的示範影片</a>
+<br/>
+<img src="20809.jpg" alt="">
+<img src="61020254001I05.jpg" alt="">
+<img src="red.jpg" alt="">
+<input type="button" id="ib" value="顯示圖片" style="font-size: 28px ; color: blue;" onclick="hi(); return false;"/>
+<h6 style="text-align: end;"">來源:網路</h6>
+</form>
+</body>
+</html>
